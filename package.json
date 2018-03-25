@@ -1,0 +1,31 @@
+{
+    "name": "api-supervitamin",
+    "description": "Document your express rest api by jsDoc or yaml.",
+    "version": "0.0.1",
+    "author": "Erasmo Dominguez <erasmolpa@gmail.com>",
+    "main": "./index",
+    "dependencies": {
+        "express": "3.5.1",
+        "node-env-file": "^0.1.8",
+        "pm2": "^2.10.1",
+        "swagger-express": "^1.0.5"
+    },
+    "devDependencies": {
+        "chai": "^4.1.1",
+        "chai-http": "^3.0.0",
+        "mocha": "^3.5.0"
+    },
+    "scripts": {
+        "start": "node ./src/index.js",
+        "test": "./node_modules/mocha/bin/_mocha"
+    },
+    "keywords": [
+        "swagger",
+        "swagger-ui",
+        "express",
+        "yml",
+        "yaml",
+        "restful"
+    ],
+    "repository": ""
+}
